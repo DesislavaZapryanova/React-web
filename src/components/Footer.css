@@ -1,0 +1,119 @@
+/* Footer.css */
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #000; /* Black background color */
+  color: #fff;
+}
+
+.subscription {
+  width: 30%;
+  text-align: left; /* Align text to the left */
+  margin-top: 20px; /* Move the first section down */
+}
+
+.subscription p:first-child {
+  font-size: 18px; /* Set font size to 18px */
+  margin-bottom: 10px; /* Add margin between the first paragraph and the second paragraph */
+}
+
+.subscription p:last-child {
+  font-size: 14px; /* Set the font size to 14px */
+  margin-bottom: 10px; /* Add margin between the second paragraph and the form */
+}
+
+.subscription form {
+  display: flex;
+  flex-direction: column; /* Align form items vertically */
+  gap: 15px; /* Add gap between form items */
+}
+
+.subscription input[type='text'],
+.subscription input[type='submit'] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 0; /* Right angles */
+}
+
+.subscription input[type='submit'] {
+  background-color: #1f98f4; /* Updated subscribe button color */
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.subscription input[type='submit']:hover {
+  background-color: #0056b3; /* Hover color same as the boxes */
+}
+
+.about-links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.about-links div {
+  width: 20%; /* Make the boxes smaller */
+  background-color: rgba(0, 0, 0, 0.2); /* More transparent black background color */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle lift */
+  transition: background-color 0.3s ease; /* Smooth transition on background color change */
+}
+
+.about-links div:hover {
+  background-color: #0056b3; /* Hover color same as the button */
+}
+
+.about-links div p {
+  font-size: 18px; /* Set the font size to 18px */
+  margin-bottom: 15px; /* Move the links down more */
+  text-decoration: underline; /* Add underline */
+}
+
+.about-links div a {
+  display: block;
+  color: #fff; /* Updated link color to white */
+  text-decoration: none;
+  margin: 10px 0;
+  font-size: 16px; /* Set the font size to 16px */
+  transition: color 0.3s ease; /* Smooth transition on color change */
+}
+
+.about-links div a:hover {
+  color: #85c7f9; /* Hover color same as the button */
+}
+
+.social-media {
+  width: 100%;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.social-media div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 24px; /* Larger font size for social media icons */
+  transition: color 0.3s ease; /* Smooth transition on color change */
+}
+
+/* Add hover effect or other styles as needed */
+.social-media a:hover {
+  color: #0056b3; /* Hover color same as the button */
+}
